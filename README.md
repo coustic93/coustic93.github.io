@@ -55,3 +55,9 @@ Below is a density plot that shows the difference of energy between rock (8) and
 While both genres have high energy, you can notice that the overall genre of rock have a more balaned distribution of energy.
 The model was able to separate rock and metal with an accuracy of 80%. 
 
+## Conclusion
+It was a lot of fun running models for something I am passionate about. 
+Music has always been a big part of my life and it was a great experience to use machine learning to classify genres. 
+It was also interesting to see how poorly the model did in classifying indie vs alternative. 
+However, this does make sense as the two genres are often confused among listeners and the difference really comes from the geographic origin of the songs.
+An additional predictor of location might helped classify between the two genres. 
