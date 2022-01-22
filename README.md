@@ -42,3 +42,7 @@ The genres the model were worst to predict were alternative music, indie alterna
 
 ![Confusion Matrix](/confusionmatrix.png)
 
+For alternative music, the model was only able to predict correctly 2% of the time. Instead of predicting it as alternative, the model was predicting it as either indie alternative or rock. 
+This makes sense as alternative is often considered as a category of rock and includes a lot of diversity. 
+
+
