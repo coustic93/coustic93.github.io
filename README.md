@@ -45,4 +45,13 @@ The genres the model were worst to predict were alternative music, indie alterna
 For alternative music, the model was only able to predict correctly 2% of the time. Instead of predicting it as alternative, the model was predicting it as either indie alternative or rock. 
 This makes sense as alternative is often considered as a category of rock and includes a lot of diversity. 
 
+## Further Analysis
+As a guitar player, I also wanted to analyze what differentiates between Rock and Metal. 
+I subset the data to only include the genres rock and metal and ran another random forest model. 
+The three most important variables were acousticness, energy, and valence. 
+Below is a density plot that shows the difference of energy between rock (8) and metal (10).
+![Density Plot](/energy.png)
+
+While both genres have high energy, you can notice that the overall genre of rock have a more balaned distribution of energy.
+The model was able to separate rock and metal with an accuracy of 80%. 
 
