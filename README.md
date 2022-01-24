@@ -25,6 +25,7 @@ Separate binary columns were also created to indicate that it was missing.
 ## Modeling
 Four different models were used : Logistic Regression, Random Forest, XGBoost, and neural network (one layer).
 After the four models were trained on the training data, Random Forest performed the best.
+For example, the Random Forest was able to correctly classify all 15 Red Hot Chili Peppers(my favorite band) as Rock while for the Logistic Regression model, it classified some of the songs as metal and blues.
 
 A random variable was also intrudced into the Random Forest model to check variable importance. 
 The three most important variables were duration, acousticness, and speechiness.
@@ -61,3 +62,5 @@ Music has always been a big part of my life and it was a great experience to use
 It was also interesting to see how poorly the model did in classifying indie vs alternative. 
 However, this does make sense as the two genres are often confused among listeners and the difference really comes from the geographic origin of the songs.
 An additional predictor of location might helped classify between the two genres. 
+
+Click [here](https://github.com/coustic93/Music-Genre-Classification) to see my R code. 
