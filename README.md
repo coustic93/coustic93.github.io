@@ -17,7 +17,7 @@ The different genres that are predicted are:
   10. Pop
   11. Rock
 
-## Explorary Data Analysis
+## Exploratory Data Analysis
 3 columns included missing values : popularity (428), key (2014), and instrumentalness (4377)
 Popularity was imputed with the median, key was imputed with "Missing", and instrumentalness was imputed with the mean. 
 Separate binary columns were also created to indicate that it was missing.
